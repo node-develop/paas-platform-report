@@ -21,7 +21,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PaaS Platforms: Analytical Report v3.0</title>
-<meta name="description" content="Consolidated analytical report on 14 PaaS platforms for enterprise teams. 46 requirements, Okta integration, RBAC, SSO, compliance.">
+<meta name="description" content="Consolidated analytical report on 15 PaaS platforms for enterprise teams. 46 requirements, Okta integration, RBAC, SSO, compliance.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -113,6 +113,7 @@
 <li><a href="#en-512-coolify-niche-option-551">5.12 Coolify — Niche option (55.1%)</a></li>
 <li><a href="#en-513-caprover-minimal-363">5.13 CapRover — Minimal (36.3%)</a></li>
 <li><a href="#en-514-hostinger-minimal-222">5.14 Hostinger — Minimal (22.2%)</a></li>
+<li><a href="#en-515-firebase-strong-candidate-777">5.15 Google Firebase — ★★ Strong candidate (77.7%)</a></li>
 <li><a href="#en-514a-northflank-detail-infrastructure-and-security">5.14a Northflank Detail: Infrastructure and Security</a></li>
 <li><a href="#en-514b-vercel-detail-pricing-and-add-ons">5.14b Vercel Detail: Pricing and Add-ons</a></li>
 <li><a href="#en-514c-render-detail-roles-and-permissions">5.14c Render Detail: Roles and Permissions</a></li>
@@ -165,6 +166,7 @@
 <li><a href="#en-portainer">Portainer</a></li>
 <li><a href="#en-dokploy">Dokploy</a></li>
 <li><a href="#en-coolify">Coolify</a></li>
+<li><a href="#en-firebase">Google Firebase</a></li>
 <li><a href="#en-hostinger">Hostinger</a></li>
 <li><a href="#en-general-sources-on-enterprise-sso-and-okta">General Sources on Enterprise SSO and Okta</a></li>
 <li><a href="#en-pricing-data-sources">Pricing Data Sources</a></li>
@@ -249,6 +251,7 @@
 <li><a href="#ru-512-coolify-niche-option-551">5.12 Coolify — Niche option (55.1%)</a></li>
 <li><a href="#ru-513-caprover-minimal-363">5.13 CapRover — Minimal (36.3%)</a></li>
 <li><a href="#ru-514-hostinger-minimal-222">5.14 Hostinger — Minimal (22.2%)</a></li>
+<li><a href="#ru-515-firebase-strong-candidate-777">5.15 Google Firebase — ★★ Strong candidate (77.7%)</a></li>
 <li><a href="#ru-514a-northflank">5.14a Детализация Northflank: инфраструктура и безопасность</a></li>
 <li><a href="#ru-514b-vercel-add-ons">5.14b Детализация Vercel: тарифы и add-ons</a></li>
 <li><a href="#ru-514c-render-permissions">5.14c Детализация Render: роли и permissions</a></li>
@@ -301,6 +304,7 @@
 <li><a href="#ru-portainer">Portainer</a></li>
 <li><a href="#ru-dokploy">Dokploy</a></li>
 <li><a href="#ru-coolify">Coolify</a></li>
+<li><a href="#ru-firebase">Google Firebase</a></li>
 <li><a href="#ru-hostinger">Hostinger</a></li>
 <li><a href="#ru-enterprise-sso-okta">Общие источники по enterprise SSO и Okta</a></li>
 <li><a href="#ru-_4">Источники ценовых данных</a></li>
@@ -344,7 +348,7 @@
       
 <section class="executive-summary" id="en-executive-summary">
   <h2>Executive Summary</h2>
-  <p class="summary-intro">Analysis of 14 PaaS platforms across 46 requirements + deploy control bonus. Okta is the priority IdP. All data verified against primary sources (March 2026).</p>
+  <p class="summary-intro">Analysis of 15 PaaS platforms across 46 requirements + deploy control bonus. Okta is the priority IdP. All data verified against primary sources (March 2026).</p>
   
   <div class="summary-grid">
     <div class="summary-card card-gold">
@@ -391,7 +395,7 @@
     </div>
     <div class="highlight-box">
       <h4>🛡️ Max Compliance</h4>
-      <p><strong>Render Enterprise</strong> — the only one with SOC 2 + ISO 27001 + HIPAA out of the box. <strong>Vercel</strong> — HIPAA add-on $350/mo.</p>
+      <p><strong>Render Enterprise</strong> — the only one with SOC 2 + ISO 27001 + HIPAA out of the box. <strong>Firebase</strong> — SOC 1/2/3 + ISO 27001 + HIPAA BAA. <strong>Vercel</strong> — HIPAA add-on $350/mo.</p>
     </div>
     <div class="highlight-box">
       <h4>⚠️ Disqualified for Okta</h4>
@@ -758,7 +762,7 @@
 <p><strong>Total: 46 requirements + deploy control bonus (max 2.0) → maximum 48 points.</strong></p>
 <hr />
 <h2 id="en-2-candidate-overview">2. Candidate Overview<a class="anchor-link" href="#en-2-candidate-overview" title="Permanent link">&para;</a></h2>
-<p>The analysis covers 14 PaaS platforms selected based on relevance criteria for enterprise development teams.</p>
+<p>The analysis covers 15 PaaS platforms selected based on relevance criteria for enterprise development teams.</p>
 <table>
 <thead>
 <tr>
@@ -868,6 +872,13 @@
 <td>VPS from $2/mo</td>
 <td>VPS, not PaaS; no RBAC/SSO out of the box</td>
 </tr>
+<tr>
+<td>15</td>
+<td><strong>Google Firebase</strong></td>
+<td>BaaS + Serverless PaaS</td>
+<td>Spark (free) / Blaze pay-as-you-go, no seat-pricing</td>
+<td>Serverless (Cloud Functions, Firestore, Hosting), GCP IAM RBAC, SOC 1/2/3 + ISO 27001</td>
+</tr>
 </tbody>
 </table>
 <hr />
@@ -928,6 +939,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -947,7 +959,8 @@
 <td>⚠️ Teams, Owner/Member</td>
 <td>❌ Single admin</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ GCP IAM, project-level, custom roles</td></tr>
 <tr>
 <td>P2 Pricing</td>
 <td>✅ Usage-based, no seat-pricing</td>
@@ -964,7 +977,8 @@
 <td>✅ Self-hosted free</td>
 <td>✅ Free</td>
 <td>✅ VPS from $2/mo</td>
-</tr>
+
+<td>⚠️ Usage-based, unpredictable at scale</td></tr>
 <tr>
 <td>P3 SSO/SAML</td>
 <td>⚡ SAML/OIDC Enterprise (WorkOS)</td>
@@ -981,7 +995,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ Via Google Cloud Identity (SAML/OIDC)</td></tr>
 <tr>
 <td>P4 Audit Logs</td>
 <td>✅ Full, export</td>
@@ -998,7 +1013,8 @@
 <td>⚠️ Basic</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ GCP Audit Logs, export, 400d retention</td></tr>
 <tr>
 <td>P5 CLI/API</td>
 <td>✅ Full API + CLI</td>
@@ -1015,7 +1031,8 @@
 <td>✅ API + CLI</td>
 <td>⚠️ caprover CLI</td>
 <td>⚠️ API for VPS</td>
-</tr>
+
+<td>✅ Firebase CLI + REST API + Admin SDKs</td></tr>
 <tr>
 <td>P6 Multi-tenancy</td>
 <td>✅ Org → Team → Project</td>
@@ -1032,7 +1049,8 @@
 <td>⚠️ Teams + Projects</td>
 <td>⚠️ Apps</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ GCP Orgs + Identity Platform tenants</td></tr>
 <tr>
 <td>P7 Preview Environments</td>
 <td>✅ Native</td>
@@ -1049,7 +1067,8 @@
 <td>✅ PR deployments</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Hosting preview channels</td></tr>
 <tr>
 <td>P8 Rollback</td>
 <td>✅ Versioning</td>
@@ -1066,7 +1085,8 @@
 <td>⚠️ Git redeploy</td>
 <td>⚠️ Manual</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Hosting one-click rollback</td></tr>
 <tr>
 <td>P9 Dashboard</td>
 <td>✅ Modern, convenient</td>
@@ -1083,7 +1103,8 @@
 <td>✅ Modern</td>
 <td>⚠️ Simple</td>
 <td>⚠️ VPS panel</td>
-</tr>
+
+<td>✅ Firebase Console, excellent UX</td></tr>
 </tbody>
 </table>
 <blockquote>
@@ -1109,6 +1130,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1128,7 +1150,8 @@
 <td>✅ Docker</td>
 <td>✅ Docker</td>
 <td>🔧 VPS + Docker DIY</td>
-</tr>
+
+<td>⚠️ Serverless + Cloud Run integration</td></tr>
 <tr>
 <td>I2 Autoscaling</td>
 <td>✅ CPU/memory autoscale</td>
@@ -1145,7 +1168,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Serverless auto-scaling</td></tr>
 <tr>
 <td>I3 Managed DB</td>
 <td>✅ Postgres, Redis, MongoDB, MySQL</td>
@@ -1162,7 +1186,8 @@
 <td>⚠️ Docker DB</td>
 <td>⚠️ One-click DB</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Firestore, Realtime DB, Cloud Storage</td></tr>
 <tr>
 <td>I4 BYOC</td>
 <td>✅ AWS, GCP, Azure, Oracle, Civo</td>
@@ -1179,7 +1204,8 @@
 <td>✅ Any server (SSH)</td>
 <td>✅ Any server</td>
 <td>✅ VPS = own server</td>
-</tr>
+
+<td>❌ Google Cloud only</td></tr>
 <tr>
 <td>I5 GPU</td>
 <td>✅ GPU workloads</td>
@@ -1196,7 +1222,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>❌ No GPU support</td></tr>
 <tr>
 <td>I6 Regions</td>
 <td>✅ 16+ regions, BYOC 600+</td>
@@ -1213,7 +1240,8 @@
 <td>⚠️ Depends on server</td>
 <td>⚠️ Depends on server</td>
 <td>⚠️ VPS region selection</td>
-</tr>
+
+<td>⚠️ ~7 regions (Functions), CDN global</td></tr>
 <tr>
 <td>I7 Volumes</td>
 <td>✅ NVMe SSD, $0.15/GB/mo</td>
@@ -1230,7 +1258,8 @@
 <td>✅ Docker volumes</td>
 <td>✅ Docker volumes</td>
 <td>✅ VPS disk</td>
-</tr>
+
+<td>❌ Serverless, no persistent volumes</td></tr>
 <tr>
 <td>I8 Cron/Jobs</td>
 <td>✅ Cron + one-off jobs</td>
@@ -1247,7 +1276,8 @@
 <td>✅ Scheduled tasks</td>
 <td>⚠️ Docker cron</td>
 <td>🔧 System cron</td>
-</tr>
+
+<td>✅ Cloud Scheduler + Functions</td></tr>
 <tr>
 <td>I9 Domains+SSL</td>
 <td>✅ Custom + auto SSL</td>
@@ -1264,7 +1294,8 @@
 <td>✅ Auto SSL</td>
 <td>✅ Auto SSL</td>
 <td>✅ Custom + SSL</td>
-</tr>
+
+<td>✅ Custom domains + auto SSL</td></tr>
 <tr>
 <td>I10 Load Balancer</td>
 <td>✅ Built-in</td>
@@ -1281,7 +1312,8 @@
 <td>✅ Traefik</td>
 <td>✅ Nginx</td>
 <td>❌ DIY</td>
-</tr>
+
+<td>✅ Built-in via Google Cloud</td></tr>
 <tr>
 <td>I11 VPC/Private</td>
 <td>✅ Cilium + Istio mTLS</td>
@@ -1298,7 +1330,8 @@
 <td>✅ Docker network</td>
 <td>✅ Docker network</td>
 <td>🔧 DIY VPN</td>
-</tr>
+
+<td>⚡ VPC via GCP Serverless Connector</td></tr>
 <tr>
 <td>I12 IaC/GitOps</td>
 <td>✅ Templates + GitOps</td>
@@ -1315,7 +1348,8 @@
 <td>✅ Git deploy</td>
 <td>⚠️ Minimal</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Firebase CLI + Terraform provider</td></tr>
 </tbody>
 </table>
 <h3 id="en-33-code-requirements-c1c7">3.3 Code Requirements (C1–C7)<a class="anchor-link" href="#en-33-code-requirements-c1c7" title="Permanent link">&para;</a></h3>
@@ -1337,6 +1371,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1356,7 +1391,8 @@
 <td>✅ GH/GL/BB/Gitea</td>
 <td>✅ GH/GL/BB</td>
 <td>❌ Manual</td>
-</tr>
+
+<td>✅ GH integration, auto-deploy</td></tr>
 <tr>
 <td>C2 Buildpacks</td>
 <td>✅ Buildpacks + Heroku</td>
@@ -1373,7 +1409,8 @@
 <td>✅ Nixpacks + Buildpacks</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚠️ App Hosting limited buildpacks</td></tr>
 <tr>
 <td>C3 Dockerfile</td>
 <td>✅</td>
@@ -1390,7 +1427,8 @@
 <td>✅</td>
 <td>✅</td>
 <td>🔧 DIY</td>
-</tr>
+
+<td>⚠️ Via Cloud Run integration</td></tr>
 <tr>
 <td>C4 Monorepo</td>
 <td>✅ Native support</td>
@@ -1407,7 +1445,8 @@
 <td>⚠️</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Native monorepo support</td></tr>
 <tr>
 <td>C5 CI/CD</td>
 <td>✅ Built-in CI + CD</td>
@@ -1424,7 +1463,8 @@
 <td>✅ Auto-deploy</td>
 <td>✅ Auto-deploy</td>
 <td>❌ Manual</td>
-</tr>
+
+<td>✅ Firebase CLI + GH Actions</td></tr>
 <tr>
 <td>C6 Secrets</td>
 <td>✅ Secret groups, inheritance</td>
@@ -1441,7 +1481,8 @@
 <td>✅ Env vars</td>
 <td>✅ Env vars</td>
 <td>🔧 Manual</td>
-</tr>
+
+<td>✅ Secret Manager integration</td></tr>
 <tr>
 <td>C7 Registry</td>
 <td>✅ Built-in</td>
@@ -1458,7 +1499,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ Via GCP Artifact Registry</td></tr>
 </tbody>
 </table>
 <h3 id="en-34-integration-requirements-n1n5">3.4 Integration Requirements (N1–N5)<a class="anchor-link" href="#en-34-integration-requirements-n1n5" title="Permanent link">&para;</a></h3>
@@ -1480,6 +1522,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1499,7 +1542,8 @@
 <td>✅</td>
 <td>✅</td>
 <td>❌</td>
-</tr>
+
+<td>⚠️ Via Cloud Functions</td></tr>
 <tr>
 <td>N2 Terraform</td>
 <td>✅ Terraform provider</td>
@@ -1516,7 +1560,8 @@
 <td>❌</td>
 <td>❌</td>
 <td></td>
-</tr>
+
+<td>✅ Google Terraform provider</td></tr>
 <tr>
 <td>N3 Slack/Teams</td>
 <td>✅</td>
@@ -1533,7 +1578,8 @@
 <td>✅ Discord/Telegram</td>
 <td>❌</td>
 <td>❌</td>
-</tr>
+
+<td>⚠️ Via Functions/Extensions</td></tr>
 <tr>
 <td>N4 Monitoring Export</td>
 <td>✅ Prometheus, Datadog</td>
@@ -1550,7 +1596,8 @@
 <td>⚠️ Basic metrics</td>
 <td>❌</td>
 <td>❌</td>
-</tr>
+
+<td>✅ Cloud Monitoring + export</td></tr>
 <tr>
 <td>N5 DNS</td>
 <td>✅ NS1, BYO DNS</td>
@@ -1567,7 +1614,8 @@
 <td>⚠️</td>
 <td>⚠️</td>
 <td>⚠️</td>
-</tr>
+
+<td>✅ Firebase Hosting DNS</td></tr>
 </tbody>
 </table>
 <h3 id="en-35-security-compliance-s1s6">3.5 Security &amp; Compliance (S1–S6)<a class="anchor-link" href="#en-35-security-compliance-s1s6" title="Permanent link">&para;</a></h3>
@@ -1589,6 +1637,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1608,7 +1657,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>✅ 2FA</td>
-</tr>
+
+<td>✅ Google 2FA + MFA enforce</td></tr>
 <tr>
 <td>S2 DDoS</td>
 <td>✅ Cloud Armour</td>
@@ -1625,7 +1675,8 @@
 <td>⚠️ Depends on server</td>
 <td>⚠️ Depends on server</td>
 <td>✅ Wanguard DDoS</td>
-</tr>
+
+<td>✅ Cloud Armor DDoS + WAF</td></tr>
 <tr>
 <td>S3 Network Policies</td>
 <td>✅ Cilium, Istio mTLS</td>
@@ -1642,7 +1693,8 @@
 <td>⚠️ Docker network</td>
 <td>⚠️ Docker network</td>
 <td>🔧 iptables DIY</td>
-</tr>
+
+<td>⚡ GCP VPC + Cloud Armor</td></tr>
 <tr>
 <td>S4 Compliance</td>
 <td>⚡ SOC 2 Type II³</td>
@@ -1659,7 +1711,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>⚠️ ISO 27001 (Hostinger)</td>
-</tr>
+
+<td>✅ SOC 1/2/3 + ISO 27001 + HIPAA BAA</td></tr>
 <tr>
 <td>S5 Encryption</td>
 <td>✅ At rest + in transit + mTLS</td>
@@ -1676,7 +1729,8 @@
 <td>⚠️ TLS</td>
 <td>⚠️ TLS</td>
 <td>⚠️ TLS</td>
-</tr>
+
+<td>✅ At rest + in transit, CMEK available</td></tr>
 <tr>
 <td>S6 Vuln Scanning</td>
 <td>✅ Image scanning</td>
@@ -1693,7 +1747,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚠️ Via GCP Container Analysis</td></tr>
 </tbody>
 </table>
 <blockquote>
@@ -1718,6 +1773,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1737,7 +1793,8 @@
 <td>✅ Realtime logs</td>
 <td>⚠️ Docker logs</td>
 <td>❌ Syslog only</td>
-</tr>
+
+<td>✅ Crashlytics + Cloud Logging</td></tr>
 <tr>
 <td>O2 Metrics</td>
 <td>✅ CPU/RAM/Net/Custom</td>
@@ -1754,7 +1811,8 @@
 <td>✅ Server metrics</td>
 <td>⚠️ Docker stats</td>
 <td>❌ VPS metrics</td>
-</tr>
+
+<td>✅ Performance Monitoring + Cloud Monitoring</td></tr>
 <tr>
 <td>O3 Alerts</td>
 <td>✅ Native</td>
@@ -1771,7 +1829,8 @@
 <td>✅ Alerts (Discord, Telegram, Email)</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>✅ Crashlytics + Cloud Alerting</td></tr>
 <tr>
 <td>O4 Tracing</td>
 <td>⚠️ Via integrations</td>
@@ -1788,7 +1847,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚠️ Firebase Performance + Cloud Trace</td></tr>
 </tbody>
 </table>
 <h3 id="en-37-okta-integration-ok1ok3-new-in-v30">3.7 Okta Integration (OK1–OK3) — NEW in v3.0<a class="anchor-link" href="#en-37-okta-integration-ok1ok3-new-in-v30" title="Permanent link">&para;</a></h3>
@@ -1810,6 +1870,7 @@
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -1829,7 +1890,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ Via GCP Workforce Identity Federation</td></tr>
 <tr>
 <td>OK2 SCIM/Provisioning</td>
 <td>⚡ Directory Sync/SCIM, Enterprise</td>
@@ -1846,7 +1908,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚡ SCIM via Google Workspace/Cloud Identity</td></tr>
 <tr>
 <td>OK3 Group-to-Role</td>
 <td>⚡ RBAC auto-assign by IdP groups, Enterprise</td>
@@ -1863,7 +1926,8 @@
 <td>❌ None</td>
 <td>❌ None</td>
 <td>❌ None</td>
-</tr>
+
+<td>⚠️ Okta → Google Groups → GCP IAM → Firebase</td></tr>
 </tbody>
 </table>
 <hr />
@@ -2057,6 +2121,16 @@
 <td>1</td>
 <td>5</td>
 <td>0.40</td>
+</tr>
+<tr>
+<td>Firebase</td>
+<td>3</td>
+<td>2</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>16</td>
+<td>1.28</td>
 </tr>
 </tbody>
 </table>
@@ -2290,6 +2364,21 @@
 <td><strong>10.65</strong></td>
 <td><strong>22.2%</strong></td>
 </tr>
+<tr>
+<td>15</td>
+<td><strong>Firebase</strong></td>
+<td>7.75</td>
+<td>7.75</td>
+<td>5.75</td>
+<td>4.00</td>
+<td>5.25</td>
+<td>3.50</td>
+<td>2.00</td>
+<td>36.00</td>
+<td>1.28</td>
+<td><strong>37.28</strong></td>
+<td><strong>77.7%</strong></td>
+</tr>
 </tbody>
 </table>
 <h3 id="en-44-visualization-ascii-bar-chart">4.4 Visualization (ASCII bar chart)<a class="anchor-link" href="#en-44-visualization-ascii-bar-chart" title="Permanent link">&para;</a></h3>
@@ -2298,6 +2387,7 @@
 Northflank  ████████████████████████████████████████████▉ 43.92 (91.5%) ★★★
 Vercel      █████████████████████████████████████▊       37.76 (78.7%) ★★
 Qovery      █████████████████████████████████████▍       37.36 (77.8%) ★★
+Firebase    █████████████████████████████████████▍       37.28 (77.7%) ★★
 Render      ████████████████████████████████████▋        36.60 (76.3%) ★★
 Railway     ███████████████████████████████████▊         35.77 (74.5%) ★★
 DO App      ████████████████████████████████▉            32.86 (68.5%) ★
@@ -2577,6 +2667,32 @@ Environment-level RBAC — Enterprise only.</p>
 <strong>Focus:</strong> Cheap VPS, not PaaS</p>
 <p><strong>Okta Integration:</strong> ❌ Completely absent. VPS with no identity management.</p>
 <p><strong>Weaknesses:</strong> This is a VPS, not a PaaS. No RBAC, SSO, CI/CD, managed services. Requires full DIY.</p>
+<hr />
+<h3 id="en-515-firebase-strong-candidate-777">5.15 Google Firebase — ★★ Strong candidate (77.7%)<a class="anchor-link" href="#en-515-firebase-strong-candidate-777" title="Permanent link">&para;</a></h3>
+<p><strong>Type:</strong> Backend-as-a-Service (BaaS) + Serverless PaaS (built on Google Cloud)
+<strong>Pricing:</strong> Spark (free) / Blaze (pay-as-you-go), no per-seat charges. Firestore: $0.18/100K reads, $0.18/100K writes; Cloud Functions: $0.40/1M invocations + compute.
+<strong>Regions:</strong> ~7 (Cloud Functions), multi-region Firestore (NAM5/EUR3), global CDN for Hosting</p>
+<p><strong>Key strengths:</strong>
+- Full Google Cloud ecosystem integration (IAM, Monitoring, Logging, Secret Manager, Cloud Armor)
+- Comprehensive compliance: SOC 1/2/3, ISO 27001/27017/27018, HIPAA BAA (for eligible services)
+- Serverless auto-scaling across all services — zero-config, zero to N
+- Excellent DX: Firebase Console, CLI, Admin SDKs (Node.js, Python, Go, Java, C#)
+- Firebase Hosting: preview channels for PRs, instant rollback, global CDN
+- Full IaC support: Terraform + Pulumi providers, Firebase CLI</p>
+<p><strong>RBAC:</strong> Via GCP IAM with predefined roles (Owner, Editor, Viewer) + Firebase-specific roles (firebase.admin, firebase.viewer, firebase.developAdmin). Custom roles can be created via GCP IAM. Granularity is at the project level — separate GCP projects needed for environment isolation (dev/staging/prod).</p>
+<p><strong>Okta Integration:</strong>
+- <strong>OK1:</strong> ⚡ Okta integration via Google Cloud Identity / Workforce Identity Federation (SAML 2.0 + OIDC). Requires Google Workspace or Cloud Identity Premium.
+- <strong>OK2:</strong> ⚡ SCIM provisioning from Okta to Google Workspace (pre-built connector). Automated user lifecycle management.
+- <strong>OK3:</strong> ⚠️ Multi-step mapping: Okta groups → Google Groups → GCP IAM roles → Firebase roles. Not a direct mapping feature.</p>
+<p><strong>Weaknesses:</strong>
+- No BYOC — locked into Google Cloud; no multi-cloud option
+- Serverless-only model: no persistent volumes, no traditional containers, no GPU support
+- Unpredictable pricing: usage-based with risk of bill shock on traffic spikes
+- No native deployment approval workflows — relies on external CI/CD
+- Okta integration is indirect — requires Google Cloud Identity/Workspace as intermediary
+- RBAC only at project level — need separate GCP projects for environment isolation
+- Not all services are HIPAA-eligible (Firebase Analytics excluded)</p>
+<p><strong>Best for:</strong> Teams building serverless applications (web/mobile) who need strong compliance certifications and are already invested in or open to the Google Cloud ecosystem. Particularly well-suited for real-time applications (Firestore, Realtime Database) with auto-scaling requirements.</p>
 <h3 id="en-514a-northflank-detail-infrastructure-and-security">5.14a Northflank Detail: Infrastructure and Security<a class="anchor-link" href="#en-514a-northflank-detail-infrastructure-and-security" title="Permanent link">&para;</a></h3>
 <p><strong>Compute plans (PaaS, March 2026):</strong></p>
 <table>
@@ -3315,7 +3431,7 @@ Environment-level RBAC — Enterprise only.</p>
 | Scale | 5–25 | 24 | 9×5 NBD | From $199/mo or $1995/yr |
 | Enterprise | Unlimited | Unlimited | 24/7 (option) | Custom |</p>
 <h3 id="en-515-rbac-model-summary-table">5.15 RBAC Model Summary Table<a class="anchor-link" href="#en-515-rbac-model-summary-table" title="Permanent link">&para;</a></h3>
-<p>One of the key requirements of this report is control over user deployments. Below is a detailed summary of RBAC models for all 14 platforms.</p>
+<p>One of the key requirements of this report is control over user deployments. Below is a detailed summary of RBAC models for all 15 platforms.</p>
 <table>
 <thead>
 <tr>
@@ -3439,6 +3555,14 @@ Environment-level RBAC — Enterprise only.</p>
 <td>❌ No</td>
 <td>❌ No</td>
 <td>—</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>GCP IAM</td>
+<td>Owner / Editor / Viewer + Firebase-specific (firebase.admin, firebase.viewer, firebase.developAdmin)</td>
+<td>Project-level (via GCP). Separate projects for env isolation.</td>
+<td>Via GCP IAM custom roles</td>
+<td>Via Google Groups → GCP IAM</td>
 </tr>
 </tbody>
 </table>
@@ -3598,6 +3722,13 @@ Environment-level RBAC — Enterprise only.</p>
 <td>—</td>
 <td>—</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>⚡ Via GCP Workforce Identity Federation (SAML/OIDC)</td>
+<td>⚡ SCIM via Google Workspace</td>
+<td>⚠️ Okta → Google Groups → GCP IAM → Firebase</td>
+<td>Requires Google Workspace/Cloud Identity Premium. Indirect — three-layer mapping.</td>
+</tr>
 </tbody>
 </table>
 <h3 id="en-517-detailed-pricing-comparison">5.17 Detailed Pricing Comparison<a class="anchor-link" href="#en-517-detailed-pricing-comparison" title="Permanent link">&para;</a></h3>
@@ -3710,6 +3841,14 @@ Environment-level RBAC — Enterprise only.</p>
 <td>❌ No SSO</td>
 <td>$2–12</td>
 <td>VPS, not PaaS</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>Spark free / Blaze pay-as-you-go</td>
+<td>No seat pricing</td>
+<td>$0 (all via Google account)</td>
+<td>$50–500/mo (usage-based)</td>
+<td>Via GCP Cloud Identity Premium (~$7.20/user/mo)</td>
 </tr>
 </tbody>
 </table>
@@ -3853,6 +3992,14 @@ Environment-level RBAC — Enterprise only.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">❌</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td style="text-align: center;">✅ SOC 1/2/3</td>
+<td style="text-align: center;">✅ ISO 27001</td>
+<td style="text-align: center;">⚡ HIPAA BAA (eligible services only)</td>
+<td style="text-align: center;">✅ GDPR</td>
+<td style="text-align: center;">⚠️ FedRAMP (GCP-level)</td>
+</tr>
 </tbody>
 </table>
 <h3 id="en-519-cicd-and-deploy-pipeline-matrix">5.19 CI/CD and Deploy Pipeline Matrix<a class="anchor-link" href="#en-519-cicd-and-deploy-pipeline-matrix" title="Permanent link">&para;</a></h3>
@@ -3995,6 +4142,14 @@ Environment-level RBAC — Enterprise only.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">❌</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>✅ GH auto-deploy (Hosting, App Hosting)</td>
+<td>✅ Hosting preview channels (per PR)</td>
+<td>⚠️ Via GCP IAM (no native approval flow)</td>
+<td>✅ One-click rollback (Hosting)</td>
+<td>✅ Firebase CLI + Admin SDKs</td>
+</tr>
 </tbody>
 </table>
 <h3 id="en-520-infrastructure-capabilities-matrix">5.20 Infrastructure Capabilities Matrix<a class="anchor-link" href="#en-520-infrastructure-capabilities-matrix" title="Permanent link">&para;</a></h3>
@@ -4136,6 +4291,15 @@ Environment-level RBAC — Enterprise only.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">✅ VPS</td>
 <td style="text-align: center;">6+</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>⚠️ Serverless + Cloud Run</td>
+<td>✅ Serverless auto</td>
+<td>✅ Firestore, RTDB, Cloud Storage</td>
+<td>❌</td>
+<td>❌</td>
+<td>⚠️ ~7 (Functions), CDN global</td>
 </tr>
 </tbody>
 </table>
@@ -5170,6 +5334,20 @@ Northflank supports automatic RBAC role assignment based on IdP groups at the or
 <li>https://coolify.io — homepage</li>
 <li>https://coolify.io/pricing/ — pricing</li>
 </ul>
+<h3 id="en-firebase">Google Firebase<a class="anchor-link" href="#en-firebase" title="Permanent link">&para;</a></h3>
+<ul>
+<li>https://firebase.google.com/pricing — Firebase pricing (Spark/Blaze plans)</li>
+<li>https://firebase.google.com/docs/projects/iam/roles — Firebase IAM roles</li>
+<li>https://firebase.google.com/docs/hosting/test-preview-deploy — Hosting preview channels</li>
+<li>https://firebase.google.com/docs/hosting/manage-hosting-resources — Hosting rollback</li>
+<li>https://firebase.google.com/support/guides/cloud-audit-logging/firebase-management — Audit logging</li>
+<li>https://firebase.google.com/docs/app-hosting — App Hosting</li>
+<li>https://firebase.google.com/docs/projects/terraform/get-started — Terraform support</li>
+<li>https://firebase.google.com/docs/functions/locations — Cloud Functions regions</li>
+<li>https://firebase.google.com/support/privacy/ — Privacy and security compliance</li>
+<li>https://cloud.google.com/architecture/identity/okta-provisioning-and-single-sign-on — Okta + GCP integration</li>
+<li>https://cloud.google.com/iam/docs/workforce-sign-in-okta — Workforce Identity Federation with Okta</li>
+</ul>
 <h3 id="en-hostinger">Hostinger<a class="anchor-link" href="#en-hostinger" title="Permanent link">&para;</a></h3>
 <ul>
 <li>https://www.hostinger.com/vps-hosting — VPS hosting</li>
@@ -5405,7 +5583,7 @@ Northflank supports automatic RBAC role assignment based on IdP groups at the or
 </ul>
 <h4 id="en-v20-february-2026-extended-research">v2.0 (February 2026) — Extended Research<a class="anchor-link" href="#en-v20-february-2026-extended-research" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Added Dokploy and Hostinger (14 platforms)</li>
+<li>Added Dokploy and Hostinger (14 platforms), then Google Firebase (15 platforms in v3.1)</li>
 <li>Deploy control bonus introduced (max +2.0)</li>
 <li>Extended platform descriptions</li>
 <li>Scenario recommendations (A–E)</li>
@@ -6186,6 +6364,19 @@ Northflank supports automatic RBAC role assignment based on IdP groups at the or
 <td></td>
 <td><strong>46.42</strong></td>
 </tr>
+<tr>
+<td>Firebase</td>
+<td>7.75</td>
+<td>7.75</td>
+<td>5.75</td>
+<td>4.00</td>
+<td>5.25</td>
+<td>3.50</td>
+<td>2.00</td>
+<td>36.00</td>
+<td>1.28</td>
+<td>37.28</td>
+</tr>
 </tbody>
 </table>
 <blockquote>
@@ -6273,8 +6464,8 @@ Northflank supports automatic RBAC role assignment based on IdP groups at the or
 <p>Without the Okta category, Fly.io would score ~30.97/45 = 68.8%. With the Okta category — 30.97/48 = 64.5%.
 A drop of 4.3 percentage points demonstrates the significance of Okta for enterprise evaluation.</p>
 <h3 id="en-appendix-b-frequently-asked-questions-faq">Appendix B: Frequently Asked Questions (FAQ)<a class="anchor-link" href="#en-appendix-b-frequently-asked-questions-faq" title="Permanent link">&para;</a></h3>
-<p><strong>Q: Why does the report cover 14 platforms and not only enterprise-grade ones?</strong>
-A: For completeness, the report includes self-hosted (Coolify, CapRover, Dokploy), budget (Hostinger), and niche (Replit) solutions. This allows the choice of an enterprise platform to be justified before stakeholders.</p>
+<p><strong>Q: Why does the report cover 15 platforms and not only enterprise-grade ones?</strong>
+A: For completeness, the report includes self-hosted (Coolify, CapRover, Dokploy), budget (Hostinger), serverless/BaaS (Firebase), and niche (Replit) solutions. This allows the choice of an enterprise platform to be justified before stakeholders.</p>
 <p><strong>Q: Why does Northflank lead despite the absence of ISO 27001?</strong>
 A: Northflank scores highly due to: (1) BYOC — data stays in your VPC, (2) Kata Containers — microVM isolation, (3) full RBAC + SSO + audit, (4) built-in CI/CD + managed DB + GPU. ISO 27001 is important but just one of 46 criteria.</p>
 <p><strong>Q: Render or Vercel for a full-stack application?</strong>
@@ -6403,6 +6594,14 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>Enterprise (custom)</td>
 <td>—</td>
 <td><strong>~$10,000–20,000</strong> ¹</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>$0</td>
+<td>$0</td>
+<td>$50–500</td>
+<td>$0</td>
+<td>$600–6,000</td>
 </tr>
 </tbody>
 </table>
@@ -6542,6 +6741,13 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>hostinger.com/pricing/vps-hosting</td>
 <td>—</td>
 </tr>
+<tr>
+<td>Firebase</td>
+<td>firebase.google.com</td>
+<td>firebase.google.com/docs</td>
+<td>firebase.google.com/pricing</td>
+<td>firebase.google.com/support</td>
+</tr>
 </tbody>
 </table>
 <h3 id="en-appendix-g-methodological-notes">Appendix G: Methodological Notes<a class="anchor-link" href="#en-appendix-g-methodological-notes" title="Permanent link">&para;</a></h3>
@@ -6573,7 +6779,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <li>v1.0 — initial research (12 platforms, 43 requirements)</li>
 <li>v2.0 — extended research (14 platforms, 43 requirements + deploy bonus)</li>
 <li>
-<p>v3.0 — verification + Okta (14 platforms, 46 requirements + deploy bonus)</p>
+<p>v3.0 — verification + Okta + Firebase (15 platforms, 46 requirements + deploy bonus)</p>
 </li>
 <li>
 <p><strong>Feedback:</strong> If inaccuracies are found in the report data, please notify with a source reference. Corrections will be included in the next version.</p>
@@ -6652,7 +6858,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
       
 <section class="executive-summary" id="ru-executive-summary">
   <h2>Executive Summary</h2>
-  <p class="summary-intro">Анализ 14 PaaS-платформ по 46 требованиям + deploy control bonus. Okta — приоритетный IdP. Все данные верифицированы по первоисточникам (март 2026).</p>
+  <p class="summary-intro">Анализ 15 PaaS-платформ по 46 требованиям + deploy control bonus. Okta — приоритетный IdP. Все данные верифицированы по первоисточникам (март 2026).</p>
   
   <div class="summary-grid">
     <div class="summary-card card-gold">
@@ -6699,7 +6905,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
     </div>
     <div class="highlight-box">
       <h4>🛡️ Max Compliance</h4>
-      <p><strong>Render Enterprise</strong> — единственная с SOC 2 + ISO 27001 + HIPAA из коробки. <strong>Vercel</strong> — HIPAA add-on $350/мес.</p>
+      <p><strong>Render Enterprise</strong> — единственная с SOC 2 + ISO 27001 + HIPAA из коробки. <strong>Firebase</strong> — SOC 1/2/3 + ISO 27001 + HIPAA BAA. <strong>Vercel</strong> — HIPAA add-on $350/мес.</p>
     </div>
     <div class="highlight-box">
       <h4>⚠️ Дисквалифицированы для Okta</h4>
@@ -7066,7 +7272,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <p><strong>Итого: 46 требований + бонус deploy control (max 2.0) → максимум 48 баллов.</strong></p>
 <hr />
 <h2 id="ru-2">2. Обзор кандидатов<a class="anchor-link" href="#ru-2" title="Permanent link">&para;</a></h2>
-<p>В анализе участвуют 14 PaaS-платформ, выбранных по критериям релевантности для enterprise-команды разработки.</p>
+<p>В анализе участвуют 15 PaaS-платформ, выбранных по критериям релевантности для enterprise-команды разработки.</p>
 <table>
 <thead>
 <tr>
@@ -7176,6 +7382,13 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>VPS от $2/мес</td>
 <td>VPS, не PaaS; нет RBAC/SSO из коробки</td>
 </tr>
+<tr>
+<td>15</td>
+<td><strong>Google Firebase</strong></td>
+<td>BaaS + Serverless PaaS</td>
+<td>Spark (бесплатно) / Blaze pay-as-you-go, без seat-pricing</td>
+<td>Serverless (Cloud Functions, Firestore, Hosting), GCP IAM RBAC, SOC 1/2/3 + ISO 27001</td>
+</tr>
 </tbody>
 </table>
 <hr />
@@ -7236,6 +7449,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -7255,7 +7469,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Teams, Owner/Member</td>
 <td>❌ Single admin</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ GCP IAM, на уровне проекта, custom roles</td></tr>
 <tr>
 <td>P2 Цена</td>
 <td>✅ Usage-based, нет seat-pricing</td>
@@ -7272,7 +7487,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Self-hosted бесплатно</td>
 <td>✅ Бесплатно</td>
 <td>✅ VPS от $2/мес</td>
-</tr>
+
+<td>⚠️ Usage-based, непредсказуемо при скейле</td></tr>
 <tr>
 <td>P3 SSO/SAML</td>
 <td>⚡ SAML/OIDC Enterprise (WorkOS)</td>
@@ -7289,7 +7505,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ Через Google Cloud Identity (SAML/OIDC)</td></tr>
 <tr>
 <td>P4 Аудит-логи</td>
 <td>✅ Полные, экспорт</td>
@@ -7306,7 +7523,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Базовые</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ GCP Audit Logs, экспорт, ретеншн 400 дней</td></tr>
 <tr>
 <td>P5 CLI/API</td>
 <td>✅ Полный API + CLI</td>
@@ -7323,7 +7541,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ API + CLI</td>
 <td>⚠️ caprover CLI</td>
 <td>⚠️ API для VPS</td>
-</tr>
+
+<td>✅ Firebase CLI + REST API + Admin SDKs</td></tr>
 <tr>
 <td>P6 Мультитенантность</td>
 <td>✅ Org → Team → Project</td>
@@ -7340,7 +7559,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Teams + Projects</td>
 <td>⚠️ Apps</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ GCP Orgs + Identity Platform tenants</td></tr>
 <tr>
 <td>P7 Preview-среды</td>
 <td>✅ Нативные</td>
@@ -7357,7 +7577,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ PR deployments</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Hosting preview channels</td></tr>
 <tr>
 <td>P8 Rollback</td>
 <td>✅ Версионирование</td>
@@ -7374,7 +7595,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Git redeploy</td>
 <td>⚠️ Manual</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Hosting one-click rollback</td></tr>
 <tr>
 <td>P9 Dashboard</td>
 <td>✅ Современный, удобный</td>
@@ -7391,7 +7613,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Современный</td>
 <td>⚠️ Простой</td>
 <td>⚠️ VPS-панель</td>
-</tr>
+
+<td>✅ Firebase Console, отличный UX</td></tr>
 </tbody>
 </table>
 <blockquote>
@@ -7417,6 +7640,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -7436,7 +7660,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Docker</td>
 <td>✅ Docker</td>
 <td>🔧 VPS + Docker DIY</td>
-</tr>
+
+<td>⚠️ Serverless + Cloud Run интеграция</td></tr>
 <tr>
 <td>I2 Автоскейлинг</td>
 <td>✅ CPU/memory autoscale</td>
@@ -7453,7 +7678,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Serverless автоскейлинг</td></tr>
 <tr>
 <td>I3 Managed DB</td>
 <td>✅ Postgres, Redis, MongoDB, MySQL</td>
@@ -7470,7 +7696,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Docker DB</td>
 <td>⚠️ One-click DB</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Firestore, Realtime DB, Cloud Storage</td></tr>
 <tr>
 <td>I4 BYOC</td>
 <td>✅ AWS, GCP, Azure, Oracle, Civo</td>
@@ -7487,7 +7714,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Любой сервер (SSH)</td>
 <td>✅ Любой сервер</td>
 <td>✅ VPS = свой сервер</td>
-</tr>
+
+<td>❌ Только Google Cloud</td></tr>
 <tr>
 <td>I5 GPU</td>
 <td>✅ GPU workloads</td>
@@ -7504,7 +7732,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>❌ Нет поддержки GPU</td></tr>
 <tr>
 <td>I6 Регионы</td>
 <td>✅ 16+ регионов, BYOC 600+</td>
@@ -7521,7 +7750,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Зависит от сервера</td>
 <td>⚠️ Зависит от сервера</td>
 <td>⚠️ Выбор региона VPS</td>
-</tr>
+
+<td>⚠️ ~7 регионов (Functions), CDN глобально</td></tr>
 <tr>
 <td>I7 Тома</td>
 <td>✅ NVMe SSD, $0.15/GB/мес</td>
@@ -7538,7 +7768,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Docker volumes</td>
 <td>✅ Docker volumes</td>
 <td>✅ VPS диск</td>
-</tr>
+
+<td>❌ Serverless, нет persistent volumes</td></tr>
 <tr>
 <td>I8 Cron/Jobs</td>
 <td>✅ Cron + one-off jobs</td>
@@ -7555,7 +7786,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Scheduled tasks</td>
 <td>⚠️ Docker cron</td>
 <td>🔧 Системный cron</td>
-</tr>
+
+<td>✅ Cloud Scheduler + Functions</td></tr>
 <tr>
 <td>I9 Domains+SSL</td>
 <td>✅ Custom + auto SSL</td>
@@ -7572,7 +7804,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Auto SSL</td>
 <td>✅ Auto SSL</td>
 <td>✅ Custom + SSL</td>
-</tr>
+
+<td>✅ Custom domains + auto SSL</td></tr>
 <tr>
 <td>I10 Load Balancer</td>
 <td>✅ Встроенный</td>
@@ -7589,7 +7822,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Traefik</td>
 <td>✅ Nginx</td>
 <td>❌ DIY</td>
-</tr>
+
+<td>✅ Встроенный через Google Cloud</td></tr>
 <tr>
 <td>I11 VPC/Private</td>
 <td>✅ Cilium + Istio mTLS</td>
@@ -7606,7 +7840,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Docker network</td>
 <td>✅ Docker network</td>
 <td>🔧 DIY VPN</td>
-</tr>
+
+<td>⚡ VPC через GCP Serverless Connector</td></tr>
 <tr>
 <td>I12 IaC/GitOps</td>
 <td>✅ Templates + GitOps</td>
@@ -7623,7 +7858,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Git deploy</td>
 <td>⚠️ Минимальный</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Firebase CLI + Terraform provider</td></tr>
 </tbody>
 </table>
 <h3 id="ru-33-c1c7">3.3 Требования к коду (C1–C7)<a class="anchor-link" href="#ru-33-c1c7" title="Permanent link">&para;</a></h3>
@@ -7645,6 +7881,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -7664,7 +7901,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ GH/GL/BB/Gitea</td>
 <td>✅ GH/GL/BB</td>
 <td>❌ Manual</td>
-</tr>
+
+<td>✅ GH интеграция, auto-deploy</td></tr>
 <tr>
 <td>C2 Buildpacks</td>
 <td>✅ Buildpacks + Heroku</td>
@@ -7681,7 +7919,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Nixpacks + Buildpacks</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚠️ App Hosting ограниченные buildpacks</td></tr>
 <tr>
 <td>C3 Dockerfile</td>
 <td>✅</td>
@@ -7698,7 +7937,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅</td>
 <td>✅</td>
 <td>🔧 DIY</td>
-</tr>
+
+<td>⚠️ Через Cloud Run интеграцию</td></tr>
 <tr>
 <td>C4 Monorepo</td>
 <td>✅ Нативная поддержка</td>
@@ -7715,7 +7955,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Нативная поддержка монорепо</td></tr>
 <tr>
 <td>C5 CI/CD</td>
 <td>✅ Встроенный CI + CD</td>
@@ -7732,7 +7973,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Auto-deploy</td>
 <td>✅ Auto-deploy</td>
 <td>❌ Manual</td>
-</tr>
+
+<td>✅ Firebase CLI + GH Actions</td></tr>
 <tr>
 <td>C6 Секреты</td>
 <td>✅ Secret groups, наследование</td>
@@ -7749,7 +7991,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Env vars</td>
 <td>✅ Env vars</td>
 <td>🔧 Manual</td>
-</tr>
+
+<td>✅ Интеграция с Secret Manager</td></tr>
 <tr>
 <td>C7 Registry</td>
 <td>✅ Встроенный</td>
@@ -7766,7 +8009,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ Через GCP Artifact Registry</td></tr>
 </tbody>
 </table>
 <h3 id="ru-34-n1n5">3.4 Интеграционные требования (N1–N5)<a class="anchor-link" href="#ru-34-n1n5" title="Permanent link">&para;</a></h3>
@@ -7788,6 +8032,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -7807,7 +8052,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅</td>
 <td>✅</td>
 <td>❌</td>
-</tr>
+
+<td>⚠️ Через Cloud Functions</td></tr>
 <tr>
 <td>N2 Terraform</td>
 <td>✅ Terraform provider</td>
@@ -7824,7 +8070,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌</td>
 <td>❌</td>
 <td></td>
-</tr>
+
+<td>✅ Google Terraform provider</td></tr>
 <tr>
 <td>N3 Slack/Teams</td>
 <td>✅</td>
@@ -7841,7 +8088,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Discord/Telegram</td>
 <td>❌</td>
 <td>❌</td>
-</tr>
+
+<td>⚠️ Через Functions/Extensions</td></tr>
 <tr>
 <td>N4 Monitoring export</td>
 <td>✅ Prometheus, Datadog</td>
@@ -7858,7 +8106,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Базовые метрики</td>
 <td>❌</td>
 <td>❌</td>
-</tr>
+
+<td>✅ Cloud Monitoring + экспорт</td></tr>
 <tr>
 <td>N5 DNS</td>
 <td>✅ NS1, BYO DNS</td>
@@ -7875,7 +8124,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️</td>
 <td>⚠️</td>
 <td>⚠️</td>
-</tr>
+
+<td>✅ Firebase Hosting DNS</td></tr>
 </tbody>
 </table>
 <h3 id="ru-35-s1s6">3.5 Безопасность и комплаенс (S1–S6)<a class="anchor-link" href="#ru-35-s1s6" title="Permanent link">&para;</a></h3>
@@ -7897,6 +8147,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -7916,7 +8167,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>✅ 2FA</td>
-</tr>
+
+<td>✅ Google 2FA + MFA enforce</td></tr>
 <tr>
 <td>S2 DDoS</td>
 <td>✅ Cloud Armour</td>
@@ -7933,7 +8185,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Зависит от сервера</td>
 <td>⚠️ Зависит от сервера</td>
 <td>✅ Wanguard DDoS</td>
-</tr>
+
+<td>✅ Cloud Armor DDoS + WAF</td></tr>
 <tr>
 <td>S3 Network Policies</td>
 <td>✅ Cilium, Istio mTLS</td>
@@ -7950,7 +8203,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ Docker network</td>
 <td>⚠️ Docker network</td>
 <td>🔧 iptables DIY</td>
-</tr>
+
+<td>⚡ GCP VPC + Cloud Armor</td></tr>
 <tr>
 <td>S4 Compliance</td>
 <td>⚡ SOC 2 Type II³</td>
@@ -7967,7 +8221,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>⚠️ ISO 27001 (Hostinger)</td>
-</tr>
+
+<td>✅ SOC 1/2/3 + ISO 27001 + HIPAA BAA</td></tr>
 <tr>
 <td>S5 Шифрование</td>
 <td>✅ At rest + in transit + mTLS</td>
@@ -7984,7 +8239,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>⚠️ TLS</td>
 <td>⚠️ TLS</td>
 <td>⚠️ TLS</td>
-</tr>
+
+<td>✅ At rest + in transit, CMEK доступен</td></tr>
 <tr>
 <td>S6 Vuln scanning</td>
 <td>✅ Image scanning</td>
@@ -8001,7 +8257,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚠️ Через GCP Container Analysis</td></tr>
 </tbody>
 </table>
 <blockquote>
@@ -8026,6 +8283,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -8045,7 +8303,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Realtime logs</td>
 <td>⚠️ Docker logs</td>
 <td>❌ Только syslog</td>
-</tr>
+
+<td>✅ Crashlytics + Cloud Logging</td></tr>
 <tr>
 <td>O2 Метрики</td>
 <td>✅ CPU/RAM/Net/Custom</td>
@@ -8062,7 +8321,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Server metrics</td>
 <td>⚠️ Docker stats</td>
 <td>❌ VPS метрики</td>
-</tr>
+
+<td>✅ Performance Monitoring + Cloud Monitoring</td></tr>
 <tr>
 <td>O3 Алерты</td>
 <td>✅ Нативные</td>
@@ -8079,7 +8339,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>✅ Алерты (Discord, Telegram, Email)</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>✅ Crashlytics + Cloud Alerting</td></tr>
 <tr>
 <td>O4 Трейсинг</td>
 <td>⚠️ Через интеграции</td>
@@ -8096,7 +8357,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚠️ Firebase Performance + Cloud Trace</td></tr>
 </tbody>
 </table>
 <h3 id="ru-37-okta-ok1ok3-v30">3.7 Okta-интеграция (OK1–OK3) — НОВОЕ в v3.0<a class="anchor-link" href="#ru-37-okta-ok1ok3-v30" title="Permanent link">&para;</a></h3>
@@ -8118,6 +8380,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <th>Coolify</th>
 <th>CapRover</th>
 <th>Hostinger</th>
+<th>Firebase</th>
 </tr>
 </thead>
 <tbody>
@@ -8137,7 +8400,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ Через GCP Workforce Identity Federation</td></tr>
 <tr>
 <td>OK2 SCIM/Провижининг</td>
 <td>⚡ Directory Sync/SCIM, Enterprise</td>
@@ -8154,7 +8418,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚡ SCIM через Google Workspace/Cloud Identity</td></tr>
 <tr>
 <td>OK3 Group-to-Role</td>
 <td>⚡ RBAC auto-assign по IdP-группам, Enterprise</td>
@@ -8171,7 +8436,8 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
-</tr>
+
+<td>⚠️ Okta → Google Groups → GCP IAM → Firebase</td></tr>
 </tbody>
 </table>
 <hr />
@@ -8365,6 +8631,16 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td>1</td>
 <td>5</td>
 <td>0.40</td>
+</tr>
+<tr>
+<td>Firebase</td>
+<td>3</td>
+<td>2</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>16</td>
+<td>1.28</td>
 </tr>
 </tbody>
 </table>
@@ -8598,6 +8874,21 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 <td><strong>10.65</strong></td>
 <td><strong>22.2%</strong></td>
 </tr>
+<tr>
+<td>15</td>
+<td><strong>Firebase</strong></td>
+<td>7.75</td>
+<td>7.75</td>
+<td>5.75</td>
+<td>4.00</td>
+<td>5.25</td>
+<td>3.50</td>
+<td>2.00</td>
+<td>36.00</td>
+<td>1.28</td>
+<td><strong>37.28</strong></td>
+<td><strong>77.7%</strong></td>
+</tr>
 </tbody>
 </table>
 <h3 id="ru-44-ascii-bar-chart">4.4 Визуализация (ASCII bar chart)<a class="anchor-link" href="#ru-44-ascii-bar-chart" title="Permanent link">&para;</a></h3>
@@ -8606,6 +8897,7 @@ A: ⚡ means "the feature exists but requires a paid plan or add-on." This is no
 Northflank  ████████████████████████████████████████████▉ 43.92 (91.5%) ★★★
 Vercel      █████████████████████████████████████▊       37.76 (78.7%) ★★
 Qovery      █████████████████████████████████████▍       37.36 (77.8%) ★★
+Firebase    █████████████████████████████████████▍       37.28 (77.7%) ★★
 Render      ████████████████████████████████████▋        36.60 (76.3%) ★★
 Railway     ███████████████████████████████████▊         35.77 (74.5%) ★★
 DO App      ████████████████████████████████▉            32.86 (68.5%) ★
@@ -8885,6 +9177,32 @@ Environment-level RBAC — только Enterprise.</p>
 <strong>Фокус:</strong> Дешёвый VPS, не PaaS</p>
 <p><strong>Okta-интеграция:</strong> ❌ Полностью отсутствует. VPS без управления идентификацией.</p>
 <p><strong>Слабые стороны:</strong> Это VPS, а не PaaS. Нет RBAC, SSO, CI/CD, managed services. Требует полного DIY.</p>
+<hr />
+<h3 id="ru-515-firebase-strong-candidate-777">5.15 Google Firebase — ★★ Strong candidate (77.7%)<a class="anchor-link" href="#ru-515-firebase-strong-candidate-777" title="Permanent link">&para;</a></h3>
+<p><strong>Тип:</strong> Backend-as-a-Service (BaaS) + Serverless PaaS (построен на Google Cloud)
+<strong>Ценообразование:</strong> Spark (бесплатно) / Blaze (pay-as-you-go), без seat-pricing. Firestore: $0.18/100K чтений, $0.18/100K записей; Cloud Functions: $0.40/1M вызовов + compute.
+<strong>Регионы:</strong> ~7 (Cloud Functions), мультирегион Firestore (NAM5/EUR3), глобальный CDN для Hosting</p>
+<p><strong>Ключевые преимущества:</strong>
+- Полная интеграция с экосистемой Google Cloud (IAM, Monitoring, Logging, Secret Manager, Cloud Armor)
+- Комплексный комплаенс: SOC 1/2/3, ISO 27001/27017/27018, HIPAA BAA (для подходящих сервисов)
+- Serverless автоскейлинг всех сервисов — zero-config, от 0 до N
+- Отличный DX: Firebase Console, CLI, Admin SDK (Node.js, Python, Go, Java, C#)
+- Firebase Hosting: preview channels для PR, мгновенный rollback, глобальный CDN
+- Полная поддержка IaC: Terraform + Pulumi провайдеры, Firebase CLI</p>
+<p><strong>RBAC:</strong> Через GCP IAM с предопределёнными ролями (Owner, Editor, Viewer) + Firebase-специфичные роли (firebase.admin, firebase.viewer, firebase.developAdmin). Custom roles через GCP IAM. Гранулярность на уровне проекта — для изоляции окружений (dev/staging/prod) нужны отдельные GCP-проекты.</p>
+<p><strong>Okta-интеграция:</strong>
+- <strong>OK1:</strong> ⚡ Интеграция с Okta через Google Cloud Identity / Workforce Identity Federation (SAML 2.0 + OIDC). Требует Google Workspace или Cloud Identity Premium.
+- <strong>OK2:</strong> ⚡ SCIM-провижининг из Okta в Google Workspace (готовый коннектор). Автоматизированное управление жизненным циклом пользователей.
+- <strong>OK3:</strong> ⚠️ Многоступенчатый маппинг: Okta groups → Google Groups → GCP IAM roles → Firebase roles. Нет прямого маппинга.</p>
+<p><strong>Слабые стороны:</strong>
+- Нет BYOC — привязка к Google Cloud; нет мультиоблачного варианта
+- Только serverless-модель: нет persistent volumes, нет традиционных контейнеров, нет GPU
+- Непредсказуемое ценообразование: usage-based с риском bill shock при всплесках трафика
+- Нет нативных workflow одобрения деплоев — зависит от внешнего CI/CD
+- Интеграция с Okta непрямая — требует Google Cloud Identity/Workspace как посредника
+- RBAC только на уровне проекта — нужны отдельные GCP-проекты для изоляции окружений
+- Не все сервисы HIPAA-eligible (Firebase Analytics исключён)</p>
+<p><strong>Лучше всего подходит для:</strong> Команд, строящих serverless-приложения (web/mobile), которым нужны сильные compliance-сертификации и которые уже используют или готовы использовать экосистему Google Cloud. Особенно подходит для real-time приложений (Firestore, Realtime Database) с требованиями автоскейлинга.</p>
 <h3 id="ru-514a-northflank">5.14a Детализация Northflank: инфраструктура и безопасность<a class="anchor-link" href="#ru-514a-northflank" title="Permanent link">&para;</a></h3>
 <p><strong>Вычислительные планы (PaaS, март 2026):</strong></p>
 <table>
@@ -9623,7 +9941,7 @@ Environment-level RBAC — только Enterprise.</p>
 | Scale | 5–25 | 24 | 9×5 NBD | От $199/мес или $1995/год |
 | Enterprise | Unlimited | Unlimited | 24/7 (опция) | Custom |</p>
 <h3 id="ru-515-rbac-">5.15 Сводная таблица RBAC-моделей<a class="anchor-link" href="#ru-515-rbac-" title="Permanent link">&para;</a></h3>
-<p>Одно из ключевых требований настоящего отчёта — контроль над пользовательскими деплоями. Ниже приведена детальная сводка RBAC-моделей всех 14 платформ.</p>
+<p>Одно из ключевых требований настоящего отчёта — контроль над пользовательскими деплоями. Ниже приведена детальная сводка RBAC-моделей всех 15 платформ.</p>
 <table>
 <thead>
 <tr>
@@ -9747,6 +10065,14 @@ Environment-level RBAC — только Enterprise.</p>
 <td>❌ Нет</td>
 <td>❌ Нет</td>
 <td>—</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>GCP IAM</td>
+<td>Owner / Editor / Viewer + Firebase-специфичные (firebase.admin, firebase.viewer, firebase.developAdmin)</td>
+<td>На уровне проекта (через GCP). Отдельные проекты для изоляции окружений.</td>
+<td>Через GCP IAM custom roles</td>
+<td>Через Google Groups → GCP IAM</td>
 </tr>
 </tbody>
 </table>
@@ -9906,6 +10232,13 @@ Environment-level RBAC — только Enterprise.</p>
 <td>—</td>
 <td>—</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>⚡ Через GCP Workforce Identity Federation (SAML/OIDC)</td>
+<td>⚡ SCIM через Google Workspace</td>
+<td>⚠️ Okta → Google Groups → GCP IAM → Firebase</td>
+<td>Требует Google Workspace/Cloud Identity Premium. Непрямая — трёхуровневый маппинг.</td>
+</tr>
 </tbody>
 </table>
 <h3 id="ru-517">5.17 Детальное сравнение ценообразования<a class="anchor-link" href="#ru-517" title="Permanent link">&para;</a></h3>
@@ -10018,6 +10351,14 @@ Environment-level RBAC — только Enterprise.</p>
 <td>❌ Нет SSO</td>
 <td>$2–12</td>
 <td>VPS, не PaaS</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>Spark бесплатно / Blaze pay-as-you-go</td>
+<td>Нет seat pricing</td>
+<td>$0 (всё через Google аккаунт)</td>
+<td>$50–500/мес (usage-based)</td>
+<td>Через GCP Cloud Identity Premium (~$7.20/user/мес)</td>
 </tr>
 </tbody>
 </table>
@@ -10161,6 +10502,14 @@ Environment-level RBAC — только Enterprise.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">❌</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td style="text-align: center;">✅ SOC 1/2/3</td>
+<td style="text-align: center;">✅ ISO 27001</td>
+<td style="text-align: center;">⚡ HIPAA BAA (только eligible-сервисы)</td>
+<td style="text-align: center;">✅ GDPR</td>
+<td style="text-align: center;">⚠️ FedRAMP (на уровне GCP)</td>
+</tr>
 </tbody>
 </table>
 <h3 id="ru-519-cicd-">5.19 Матрица CI/CD и деплой-пайплайнов<a class="anchor-link" href="#ru-519-cicd-" title="Permanent link">&para;</a></h3>
@@ -10303,6 +10652,14 @@ Environment-level RBAC — только Enterprise.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">❌</td>
 </tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>✅ GH auto-deploy (Hosting, App Hosting)</td>
+<td>✅ Hosting preview channels (на каждый PR)</td>
+<td>⚠️ Через GCP IAM (нет нативного approval flow)</td>
+<td>✅ One-click rollback (Hosting)</td>
+<td>✅ Firebase CLI + Admin SDKs</td>
+</tr>
 </tbody>
 </table>
 <h3 id="ru-520">5.20 Матрица инфраструктурных возможностей<a class="anchor-link" href="#ru-520" title="Permanent link">&para;</a></h3>
@@ -10444,6 +10801,15 @@ Environment-level RBAC — только Enterprise.</p>
 <td style="text-align: center;">❌</td>
 <td style="text-align: center;">✅ VPS</td>
 <td style="text-align: center;">6+</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>⚠️ Serverless + Cloud Run</td>
+<td>✅ Serverless авто</td>
+<td>✅ Firestore, RTDB, Cloud Storage</td>
+<td>❌</td>
+<td>❌</td>
+<td>⚠️ ~7 (Functions), CDN глобально</td>
 </tr>
 </tbody>
 </table>
@@ -11478,6 +11844,20 @@ Northflank поддерживает автоматическое назначе�
 <li>https://coolify.io — главная</li>
 <li>https://coolify.io/pricing/ — тарифы</li>
 </ul>
+<h3 id="ru-firebase">Google Firebase<a class="anchor-link" href="#ru-firebase" title="Permanent link">&para;</a></h3>
+<ul>
+<li>https://firebase.google.com/pricing — ценообразование Firebase (Spark/Blaze)</li>
+<li>https://firebase.google.com/docs/projects/iam/roles — IAM-роли Firebase</li>
+<li>https://firebase.google.com/docs/hosting/test-preview-deploy — Hosting preview channels</li>
+<li>https://firebase.google.com/docs/hosting/manage-hosting-resources — Hosting rollback</li>
+<li>https://firebase.google.com/support/guides/cloud-audit-logging/firebase-management — аудит-логирование</li>
+<li>https://firebase.google.com/docs/app-hosting — App Hosting</li>
+<li>https://firebase.google.com/docs/projects/terraform/get-started — поддержка Terraform</li>
+<li>https://firebase.google.com/docs/functions/locations — регионы Cloud Functions</li>
+<li>https://firebase.google.com/support/privacy/ — приватность и безопасность</li>
+<li>https://cloud.google.com/architecture/identity/okta-provisioning-and-single-sign-on — интеграция Okta + GCP</li>
+<li>https://cloud.google.com/iam/docs/workforce-sign-in-okta — Workforce Identity Federation с Okta</li>
+</ul>
 <h3 id="ru-hostinger">Hostinger<a class="anchor-link" href="#ru-hostinger" title="Permanent link">&para;</a></h3>
 <ul>
 <li>https://www.hostinger.com/vps-hosting — VPS hosting</li>
@@ -11617,7 +11997,7 @@ Northflank поддерживает автоматическое назначе�
 </tr>
 <tr>
 <td>14</td>
-<td>Верификация Okta для всех 14 платформ</td>
+<td>Верификация Okta для всех 15 платформ</td>
 <td>Полная таблица OK1/OK2/OK3 на основе документации</td>
 </tr>
 <tr>
@@ -11713,7 +12093,7 @@ Northflank поддерживает автоматическое назначе�
 </ul>
 <h4 id="ru-v20-2026">v2.0 (февраль 2026) — Расширенное исследование<a class="anchor-link" href="#ru-v20-2026" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Добавлены Dokploy и Hostinger (14 платформ)</li>
+<li>Добавлены Dokploy и Hostinger (14 платформ), затем Google Firebase (15 платформ в v3.1)</li>
 <li>Deploy control bonus введён (max +2.0)</li>
 <li>Расширенные описания платформ</li>
 <li>Сценарные рекомендации (A–E)</li>
@@ -12494,6 +12874,19 @@ Northflank поддерживает автоматическое назначе�
 <td></td>
 <td><strong>46.42</strong></td>
 </tr>
+<tr>
+<td>Firebase</td>
+<td>7.75</td>
+<td>7.75</td>
+<td>5.75</td>
+<td>4.00</td>
+<td>5.25</td>
+<td>3.50</td>
+<td>2.00</td>
+<td>36.00</td>
+<td>1.28</td>
+<td>37.28</td>
+</tr>
 </tbody>
 </table>
 <blockquote>
@@ -12581,8 +12974,8 @@ Northflank поддерживает автоматическое назначе�
 <p>Без Okta-категории Fly.io набрал бы ~30.97/45 = 68.8%. С Okta-категорией — 30.97/48 = 64.5%.
 Падение на 4.3 процентных пункта демонстрирует значимость Okta для enterprise-оценки.</p>
 <h3 id="ru-b-faq">Приложение B: Часто задаваемые вопросы (FAQ)<a class="anchor-link" href="#ru-b-faq" title="Permanent link">&para;</a></h3>
-<p><strong>Q: Почему в отчёте 14 платформ, а не только enterprise-grade?</strong>
-A: Для полноты картины включены self-hosted (Coolify, CapRover, Dokploy), budget (Hostinger), и нишевые (Replit) решения. Это позволяет обосновать выбор enterprise-платформы перед stakeholders.</p>
+<p><strong>Q: Почему в отчёте 15 платформ, а не только enterprise-grade?</strong>
+A: Для полноты картины включены self-hosted (Coolify, CapRover, Dokploy), budget (Hostinger), serverless/BaaS (Firebase), и нишевые (Replit) решения. Это позволяет обосновать выбор enterprise-платформы перед stakeholders.</p>
 <p><strong>Q: Почему Northflank лидирует, несмотря на отсутствие ISO 27001?</strong>
 A: Northflank набирает высокие баллы за: (1) BYOC — данные остаются в вашем VPC, (2) Kata Containers — микро-ВМ изоляция, (3) полный RBAC + SSO + audit, (4) встроенный CI/CD + managed DB + GPU. ISO 27001 — важный, но один из 46 пунктов.</p>
 <p><strong>Q: Render или Vercel для full-stack приложения?</strong>
@@ -12711,6 +13104,14 @@ A: ⚡ означает «функция существует, но требуе
 <td>Enterprise (custom)</td>
 <td>—</td>
 <td><strong>~$10,000–20,000</strong> ¹</td>
+</tr>
+<tr>
+<td><strong>Firebase</strong></td>
+<td>$0</td>
+<td>$0</td>
+<td>$50–500</td>
+<td>$0</td>
+<td>$600–6,000</td>
 </tr>
 </tbody>
 </table>
@@ -12850,6 +13251,13 @@ A: ⚡ означает «функция существует, но требуе
 <td>hostinger.com/pricing/vps-hosting</td>
 <td>—</td>
 </tr>
+<tr>
+<td>Firebase</td>
+<td>firebase.google.com</td>
+<td>firebase.google.com/docs</td>
+<td>firebase.google.com/pricing</td>
+<td>firebase.google.com/support</td>
+</tr>
 </tbody>
 </table>
 <h3 id="ru-g">Приложение G: Методологические примечания<a class="anchor-link" href="#ru-g" title="Permanent link">&para;</a></h3>
@@ -12881,7 +13289,7 @@ A: ⚡ означает «функция существует, но требуе
 <li>v1.0 — первичное исследование (12 платформ, 43 требования)</li>
 <li>v2.0 — расширенное исследование (14 платформ, 43 требования + deploy bonus)</li>
 <li>
-<p>v3.0 — верификация + Okta (14 платформ, 46 требований + deploy bonus)</p>
+<p>v3.0 — верификация + Okta + Firebase (15 платформ, 46 требований + deploy bonus)</p>
 </li>
 <li>
 <p><strong>Обратная связь:</strong> При обнаружении неточностей в данных отчёта, просьба сообщать с указанием источника. Исправления будут включены в следующую версию.</p>
